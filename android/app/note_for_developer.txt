@@ -1,0 +1,6 @@
+For the google-services.json file:-
+the same file is supposed to used for both beta and stable tracks.
+only dev track follows a different file, as we will be experimenting in that
+
+google-services.json at location android/app/[google-services.json]
+refers to dev flavor
