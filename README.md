@@ -7,7 +7,7 @@ This is the public repository for <b>ProTasks</b>, a collaborative task manageme
 <b><h3> Online Tools</h3></b>
 
 - <b> Firebase Firestore:</b> I decided to make a hybrid database system which works both offline and online. For the online database, I decided to use Firestore, mostly because I had prior experience with it. Plus, [pub.dev](https://pub.dev) has all the necessary packages for this (which are also kept up to date). I know firestore data can also be persistent, but I wanted my app to work even if it never gets connected to internet. Also it saves database costs.
-- <b> Firestore Rules:<b> This one goes without saying, I didn't want a user to have database admin-like privileges nor I would I like a user with no privilege. Plus, I wanted a database that has atleast has some form of protection against hackers. So I wrote a few rules to do just that.
+- <b> Firestore Rules:</b> This one goes without saying, I didn't want a user to have database admin-like privileges nor I would I like a user with no privilege. Plus, I wanted a database that has atleast has some form of protection against hackers. So I wrote a few rules to do just that.
 - <b> Firebase Authentication:</b> Since I was using Firestore, it seemed most logical to use Firebase Authentication.
 - <b> Firebase Remote Config:</b> Initially I just thought to experiment with this, not knowing how impactful it could be. But after working with it, I was able to grasp the idea behind it. So much so, that now a lot of app's core features are dependent on it.
 - <b> Firebase Cloud Functions:</b> For some aspects of the database, it wasn't possible for a user to able to a make a database change directly. So, I used cloud functions to help the user do exactly that.
