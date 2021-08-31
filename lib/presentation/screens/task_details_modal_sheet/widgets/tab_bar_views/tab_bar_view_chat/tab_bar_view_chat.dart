@@ -6,6 +6,7 @@ import 'package:protasks/data/data_providers/chats_dao.dart';
 import 'package:protasks/data/data_providers/users_dao.dart';
 import 'package:protasks/data/models/chat.dart';
 import 'package:protasks/logic/cubit/modal_sheet_cubits/task_details_modal_sheet_specific/task_details_cubit.dart';
+import 'package:protasks/logic/cubit/root_cubits/login_cubit.dart';
 import 'package:protasks/logic/cubit/root_cubits/media_query_cubit.dart';
 import 'package:protasks/logic/cubit/modal_sheet_cubits/task_details_modal_sheet_specific/task_chat_cubit.dart';
 import 'package:protasks/logic/cubit/very_objective_sepecific_cubits/text_editing_controller_cubit.dart';
@@ -440,7 +441,12 @@ class _TabBarViewChatState extends State<TabBarViewChat>
                                       ),
                                     ),
                                   ),
-                                  if (_isMe)
+                                  if (_isMe &&
+                                      context
+                                              .read<LoginCubit>()
+                                              .state
+                                              .currentLoginState ==
+                                          CurrentLoginState.loggedIn)
                                     AnimatedSwitcher(
                                       duration: Duration(milliseconds: 300),
                                       switchInCurve: Curves.easeOut,
