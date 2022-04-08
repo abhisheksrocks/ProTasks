@@ -43,3 +43,6 @@ app.*.map.json
 # Play Store related
 upload-keystore.jks
 upload_certificate.pem
+
+#FVM related
+.fvm/flutter_sdk
