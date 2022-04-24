@@ -2,6 +2,12 @@
 
 This is the public repository for <b>ProTasks</b>, a collaborative task management app that I created. You can get the app from [here](https://play.google.com/store/apps/details?id=com.application.protasks.beta)
 
+![Shot1](https://play-lh.googleusercontent.com/Tb7JLrhizqpCK7gEkLuQ20Y9PcnxeVmksMTOmHxySksSmCdLoQZqEq7CLsJoVB3F2UXB=w256)
+![Shot2](https://play-lh.googleusercontent.com/td0bvoGfJxPfXMcVqrR7qI6jvHxHLLK4GvAvbGKusR4Q5EUdPanSyoMT4ofuVaWB6WI=w256)
+![Shot2](https://play-lh.googleusercontent.com/xDqHrHCdQ2lTDFOpadmPSK7Tur_VDNcIFSI4qX4fDSngG19DL6bZxnTh160vWt9KBo0=w256)
+![Shot2](https://play-lh.googleusercontent.com/lF9bf7gB4yHJL8_j8aD73aFNrqeupOjkYLJFvODx_ZqZdiBHz_m1pqhjEHzHsURuyw=w256)
+![Shot2](https://play-lh.googleusercontent.com/EhJT-OfvkZkEFwufIoECTprtfK-mO_s6a8yMP4xCwhd323goVYYeQudgou-FSluE0P8=w256)
+
 <b><h2> Highlighted Tools/Packages Used (And why?)</h2></b> 
 
 <b><h3> Online Tools</h3></b>
